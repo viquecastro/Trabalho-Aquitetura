@@ -56,7 +56,7 @@ firmware[13] = 0b00001110_000_00110101_001000_001_001
 
 ## 14: PC <- MBR; fetch; goto MBR
 firmware[14] = 0b00000000_100_00010100_001000_001_010
-
+# Oi
 # if X == 0 goto address
 
 ## 15: X <- X; if alu = 0 goto 272 else goto 16
