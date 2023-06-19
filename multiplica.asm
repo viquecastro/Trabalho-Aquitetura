@@ -8,5 +8,7 @@ u ww 1
 
 main add x, c
      mul x, b
+     mov x, r
      goto final
+
 final halt

@@ -138,7 +138,7 @@ def resolve_names():
    for line in lines_bin:
       for i in range(0, len(line)):
          if is_name(line[i]):
-            if line[i-1] == instruction_set['add'] or line[i-1] == instruction_set['sub'] or line[i-1] == instruction_set['mov']:
+            if line[i-1] == instruction_set['add'] or line[i-1] == instruction_set['mul'] or line[i-1] == instruction_set['sub'] or line[i-1] == instruction_set['mov']:
                line[i] = get_name_byte(line[i])//4
             else:
                line[i] = get_name_byte(line[i])
