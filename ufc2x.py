@@ -177,7 +177,7 @@ def alu(control_bits):
     elif control_bits == 0b101100:
         o = ~b
     elif control_bits == 0b111100:
-        o = a + b    
+        o = a + b
     elif control_bits == 0b111101:
         o = a + b + 1
     elif control_bits == 0b111001:
