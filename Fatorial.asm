@@ -3,7 +3,7 @@ wb 0
 
 
 r ww 1
-a ww 13
+a ww 13 ## input A
 u ww 1
 
 main add x, a

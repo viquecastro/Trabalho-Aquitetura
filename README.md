@@ -12,6 +12,8 @@
     2-CSW
     3-Fatorial
 
->A lógica principal está contida nos arquivos.asm
+ >A lógica principal das questões está contida nos arquivos.asm
+
+ >Para facilitar a alteração dos valores de entrada, marcamos as variáveis em cada arquivo.asm com um comentário do tipo: " ## input x "
 
 

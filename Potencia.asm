@@ -3,8 +3,8 @@ wb 0
 
 
 r ww 1
-a ww 8 ## Base da Potência
-b ww 4 ## Expoente da Potência
+a ww 8 ## input A (Base da Potência)
+b ww 4 ## input B (Expoente da Potência)
 u ww 1
 
 main add x, b 
